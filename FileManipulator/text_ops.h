@@ -1,4 +1,4 @@
-#ifndef TEXT_OPS_H
+/*#ifndef TEXT_OPS_H
 #define TEXT_OPS_H
 
 // Function declarations
@@ -7,4 +7,28 @@ void insert_text();
 void clear_file();
 void show_file();
 
-#endif
+#endif*/
+
+/* text_ops.h
+   Author: Rawan Genina
+
+   Function declarations for text file operations:
+   - text_Functions: main menu handler
+   - append_text: append text to a file
+   - insert_text: insert text at a given position
+   - clear_file: erase all contents of a file
+   - show_file: display file content with pagination
+*/
+
+#ifndef TEXT_OPS_H
+#define TEXT_OPS_H
+
+// Function declarations
+void text_ops(void);  // main menu handler
+void append_text(void);
+void insert_text(void);
+void clear_file(void);
+void show_file(void);
+
+#endif // TEXT_OPS_H
+
